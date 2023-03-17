@@ -1,0 +1,39 @@
+*{
+    margin:0%; 
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+   height: 100%;
+   width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+}
+div{
+border:solid 1px  black;
+}
+th{
+    background-color: teal;
+    border: solid 1px black;
+}
+
+table{
+border-collapse:collapse;
+}
+td{border:dotted 1px;}
+
+tr:hover{
+    background-color: rgba(55, 255, 0, 0.599);
+}
+h1{
+width:50% ;
+left: 43%;
+position: absolute; 
+top:30%;
+
+
+}
